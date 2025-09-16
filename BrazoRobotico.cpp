@@ -30,7 +30,7 @@ void BrazoRobotico::coger(){
 	sujeta = true;
 }
 
-void BrazoRobotico::coger(){
+void BrazoRobotico::dejar(){
 	sujeta = false;
 }
 
@@ -39,5 +39,3 @@ void BrazoRobotico::mover(double x, double y, double z){
 	this -> y = y;
 	this -> z = z;
 }
-
-void main(){return 0}
