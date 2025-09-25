@@ -11,7 +11,7 @@ class BrazoRobotico{
 		double getz();
 		bool getsujeta();
 		void coger();
-		void soltar();
+		void dejar();
 		void mover(double,double,double);
 
-}
+};
